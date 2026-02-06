@@ -4,14 +4,18 @@
     <title>Javascript Assignment 1</title>
 </head>
 <body>
-    <script>
-        // Set heading content using innerHTML
-        document.getElementById("myName").innerHTML = "Vaishnavi";
 
-        // Set image source using JavaScript
-        document.getElementById("myImage").src = "https://via.placeholder.com/300";
-    </script>
-    <h1> My name is Vaishnavi Gajjar <span="myName"> </span></h1>
+   <h1 style="color: rgb(119, 0, 255);">
+       My name is <span id="myName"></span>
+   </h1>
+   <br>
+
+   <img id="myImage" alt="Profile Image" width="700">
+
+   <script>
+       document.getElementById("myName").innerText = "Vaishnavi Gajjar";
+       document.getElementById("myImage").src = "dark.jpeg";
+   </script>
 
 </body>
 </html>

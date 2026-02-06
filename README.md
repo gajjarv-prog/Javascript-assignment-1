@@ -1,14 +1,23 @@
 # gajjarv@mymacewan.ca javascript assignment 1
 
-Q1. What is innerHTMl?
+Q1. What is innerHTML?
 A1. innerHTML is a JavaScript property used to get or change the content inside an HTML element.
-It allows you to insert or update text and HTML tags dynamically on a web page.
 
 Example:
 
-document.getElementById("title").innerHTML = "Hello World";
+<p id="message"></p>
 
-Q2. Whar is the DOM?
-A2. DOM stands for Document Object Model.
-It is a programming interface that represents an HTML document as a tree structure, where each element is an object.
-JavaScript uses the DOM to access, modify, add, or delete HTML elements and content.
+<script>
+document.getElementById("message").innerHTML = "Hello World";
+</script>
+
+Q2. What is the DOM?
+A2. The DOM (Document Object Model) represents an HTML page as a tree of elements that JavaScript can access and modify.
+
+Example:
+
+<<h1 id="title">Hello</h1>
+
+<script>
+document.getElementById("title").innerText = "Welcome";
+</script>
